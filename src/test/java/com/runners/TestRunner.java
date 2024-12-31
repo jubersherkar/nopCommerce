@@ -18,7 +18,7 @@ plugin = {"pretty" , "html:target/cucumber-reports",
 "com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/Extent_Report.html"},
 strict = true,
 monochrome = true,
-//tags = "@Demo",
+tags = "@Demo",
 dryRun = true)
 public class TestRunner 
 {
