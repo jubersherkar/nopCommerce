@@ -19,7 +19,7 @@ plugin = {"pretty" , "html:target/cucumber-reports",
 strict = true,
 monochrome = true,
 tags = "@Demo",
-dryRun = true)
+dryRun = false)
 public class TestRunner 
 {
 	@AfterClass
