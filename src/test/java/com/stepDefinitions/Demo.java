@@ -31,6 +31,6 @@ public class Demo
 	public void user_should_be_able_to_see_title_as(String expectedtTitle) 
 	{
 		String actualTitle = testContext.getWebDriverManager().getDriver().getTitle();
-		Assert.assertEquals(expectedtTitle, actualTitle);
+		Assert.assertEquals("expectedtTitle", actualTitle);
 	}
 }
